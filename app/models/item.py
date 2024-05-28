@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from django.db import models
+from django import models
 
 # Модель для "Предмета"
 class Item(models.Model):
